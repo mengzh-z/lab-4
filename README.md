@@ -18,7 +18,7 @@ To sign up a username, we are going to make a simple request to the Grade API.
 2. Beside the word GET, replace `https://echo.hoppscotch.io/` with `http://vm003.teach.cs.toronto.edu:20112/signUp`.
 
 Next, we need to specify the username which we want to use. To do this, we add a parameter.
-
+kh
 3. In the Parameters tab, choose `+ Add new` and set the parameter name to `username`.
 4. For its value, choose whatever username you want to use. Make note of the name you choose, as you'll use it during the lab. (Don't worry, you can repeat this process with a new username if you need to later!)
 5. Press the `Send` button to make the request. You may receive an error that the request didn't go through. Scroll down and select `proxy` as the middleware and press `Send` again. You should now see the result of the request.
